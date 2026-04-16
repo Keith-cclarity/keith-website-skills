@@ -14,7 +14,7 @@ Pre-built skills for Claude Code that help you build, audit, and optimise websit
 ## Install all skills (one command)
 
 ```bash
-git clone https://github.com/Keith-cclarity/claude-skills.git ~/.claude/skills
+git clone https://github.com/Keith-cclarity/keith-website-skills.git ~/.claude/skills
 ```
 
 Then open Claude Code and use any skill by name (e.g. "run /create-website").
@@ -29,14 +29,14 @@ mkdir -p ~/.claude/skills
 
 # Download a specific skill (replace SKILL_NAME with: create-website, audit-site, frontend-design, or seo)
 cd ~/.claude/skills
-git clone --depth 1 --filter=blob:none --sparse https://github.com/Keith-cclarity/claude-skills.git temp
+git clone --depth 1 --filter=blob:none --sparse https://github.com/Keith-cclarity/keith-website-skills.git temp
 cd temp
 git sparse-checkout set SKILL_NAME
 cp -r SKILL_NAME ..
 cd .. && rm -rf temp
 ```
 
-Or just tell Claude Code: "Download and install the create-website skill from https://github.com/Keith-cclarity/claude-skills"
+Or just tell Claude Code: "Download and install the create-website skill from https://github.com/Keith-cclarity/keith-website-skills"
 
 ## Requirements
 

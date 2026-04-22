@@ -16,9 +16,7 @@ Pre-built skills for Claude Code that help you build, audit, and optimise websit
 This clones the repo to your current folder, then copies each skill into `~/.claude/skills/` without touching any other skills you already have there.
 
 ```bash
-git clone https://github.com/Keith-cclarity/keith-website-skills.git
-cd keith-website-skills
-./install.sh
+git clone https://github.com/Keith-cclarity/keith-website-skills.git && cd keith-website-skills && ./install.sh
 ```
 
 Restart Claude Code and try `/create-website`.

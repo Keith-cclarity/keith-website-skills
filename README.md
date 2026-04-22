@@ -64,6 +64,8 @@ git pull
 - [Claude Code](https://claude.ai) (requires Claude Pro, Max, or Team subscription)
 - Node.js 20+
 - Git
+- Python 3 (pre-installed on macOS, used by `/seo` deep analysis scripts)
+- **Windows:** use Git Bash or WSL, not cmd/PowerShell (the install script is a bash script)
 
 ## Author
 
